@@ -1,0 +1,54 @@
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+.cursor/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+staticfiles/
+static_files/
+media/
+mediafiles/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# Data and notes (README and CHANGELOG are kept)
+*.csv
+*.xml
+*.txt
+!requirements*.txt
+*.md
+!README.md
+!CHANGELOG.md
+
+# Logs and archives
+*.log
+*.zip
+
+# Expo
+.expo/
+web-build/
+/mobile-sensor/ios/
+/mobile-sensor/android/
